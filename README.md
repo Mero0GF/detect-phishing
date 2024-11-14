@@ -2,9 +2,22 @@
   
 # Visão Geral
 
-Este projeto explora a utilização de algoritmos de machine learning para a detecção automatizada de sites de phishing, com base em características extraídas de URLs e conteúdo das páginas. O estudo compara os desempenhos de três algoritmos: Regressão Logística, K-Nearest Neighbors (KNN) e Random Forest, usando um dataset que contém 5.780 amostras, sendo 578 de sites phishing e 5.000 de sites legítimos.  
-Algoritmos Utilizados  
+Este projeto explora a utilização de algoritmos de machine learning para a detecção automatizada de sites de phishing, com base em características extraídas de URLs e conteúdo das páginas. O estudo compara os desempenhos de três algoritmos: Regressão Logística, K-Nearest Neighbors (KNN) e Random Forest, usando um dataset que contém 5.780 amostras, sendo 578 de sites phishing e 5.000 de sites legítimos. 
+  
+# Algoritmos Utilizados  
   
 Regressão Logística: Modelo simples e interpretável para classificação binária.  
 K-Nearest Neighbors (KNN): Algoritmo baseado em instâncias que classifica com base na proximidade de vizinhos.  
 Random Forest: Modelo de ensemble que utiliza múltiplas árvores de decisão para melhorar a precisão.  
+
+# Resultados  
+  
+KNN e Regressão Logística tiveram boa acurácia para sites legítimos, mas dificuldades em identificar phishing, com altos falsos negativos.  
+Random Forest teve melhor desempenho na detecção de phishing, com menos falsos negativos, mas mais falsos positivos.  
+  
+# Conclusão  
+   
+O modelo Random Forest é o mais eficaz para detectar phishing, embora com um custo maior de falsos positivos, o que é aceitável para segurança, pois falsos negativos são mais prejudiciais.   
+
+  
+Mais detalhes sobre o projeto estão no artigo "Detecção de Sites Phishing com Machine Learning_ Uma Abordagem Baseada em Análise de Dados de Sites Autênticos e Maliciosos".
