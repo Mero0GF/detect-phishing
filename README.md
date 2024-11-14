@@ -19,5 +19,8 @@ Random Forest teve melhor desempenho na detecção de phishing, com menos falsos
    
 O modelo Random Forest é o mais eficaz para detectar phishing, embora com um custo maior de falsos positivos, o que é aceitável para segurança, pois falsos negativos são mais prejudiciais.   
 
+# Informações Adicionais 
+Mais detalhes sobre o projeto estão no artigo "Detecção de Sites Phishing com Machine Learning_ Uma Abordagem Baseada em Análise de Dados de Sites Autênticos e Maliciosos".  
   
-Mais detalhes sobre o projeto estão no artigo "Detecção de Sites Phishing com Machine Learning_ Uma Abordagem Baseada em Análise de Dados de Sites Autênticos e Maliciosos".
+Também disponibilizamos um .ipynb, com os codigos organizados para melhor visualização das informações, sendo uma versão extra sobre os códigos presentes no Docker do projeto.  
+  
