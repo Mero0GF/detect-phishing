@@ -50,7 +50,7 @@ O arquivo .csv deve ter as colunas: `brands`, `features.html`, `whois_domain_age
 Recomenda-se utilizar um dataset alterado do site do Zenodo (Link: https://zenodo.org/records/8041387).
 ## Execute o contêiner
 ```bash
-docker run -p 8501:8501 detect-phishing
+docker run -p 8501:8501 eriaki/detect-phishing
 ```
 ## Abra localhost no navegador
 Pesquise por http://localhost:8501/ no seu navegador de preferência
