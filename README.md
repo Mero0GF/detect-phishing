@@ -41,13 +41,17 @@ docker login
 ``` 
 Insira seu nome de usuário e senha do Docker Hub. Se o contêiner for público, essa etapa pode ser opcional.
 ## Baixe a imagem do contêiner do Docker Hub:
-```docker pull eriaki/detect-phishing:latest```
+```bash
+docker pull eriaki/detect-phishing:latest
+```
 ## Prepare o arquivo .csv com os dados da predição
 **Atenção**: o arquivo .csv deve ter um formato específico para a predição ser executada normalmente. <br/>
 O arquivo .csv deve ter as colunas: `brands`, `features.html`, `whois_domain_age`, `remote_ip_address`, `domain`, `whois_registrar_url`, `url`, `assets_downloaded` e `is_phishing`. <br/>
 Recomenda-se utilizar um dataset alterado do site do Zenodo (Link: https://zenodo.org/records/8041387).
 ## Execute o contêiner
-```docker run -p 8501:8501 detect-phishing```
+```bash
+docker run -p 8501:8501 detect-phishing
+```
 ## Abra localhost no navegador
 Pesquise por http://localhost:8501/ no seu navegador de preferência
 ## Insira o arquivo .csv para a previsão
