@@ -36,7 +36,9 @@ Também disponibilizamos um .ipynb, com os codigos organizados para melhor visua
 Siga as instruções de instalação para o Docker de acordo com o sistema operacional: [Docker](https://www.docker.com/products/docker-desktop/) 
 ## Faça login no Docker Hub
 Abra o terminal e digite:
-```docker login``` 
+```bash
+docker login
+``` 
 Insira seu nome de usuário e senha do Docker Hub. Se o contêiner for público, essa etapa pode ser opcional.
 ## Baixe a imagem do contêiner do Docker Hub:
 ```docker pull eriaki/detect-phishing:latest```
