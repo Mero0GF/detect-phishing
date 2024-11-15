@@ -4,6 +4,11 @@
 
 Este projeto explora a utilização de algoritmos de machine learning para a detecção automatizada de sites de phishing, com base em características extraídas de URLs e conteúdo das páginas. O estudo compara os desempenhos de três algoritmos: Regressão Logística, K-Nearest Neighbors (KNN) e Random Forest, usando um dataset que contém 5.780 amostras, sendo 578 de sites phishing e 5.000 de sites legítimos. 
   
+# Datasets  
+Para o projeto coletamos dados do site Zenodo (Link: https://zenodo.org/records/8041387 ). Nele são apresentados diveros datasets separados em phishing e não phishing (legitimos).
+Nós análisamos e selecionamos dois datasets, um com 5000 casos de phishing e outro com 5000 casos legitimos, ambos com as mesmas colunas (valores).  
+O tratamento dos dados está descrito no artigo.  
+  
 # Algoritmos Utilizados  
   
 Regressão Logística: Modelo simples e interpretável para classificação binária.  
