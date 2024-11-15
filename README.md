@@ -7,6 +7,8 @@ Este projeto explora a utilização de algoritmos de machine learning para a det
 # Datasets  
 Para o projeto coletamos dados do site Zenodo (Link: https://zenodo.org/records/8041387 ). Nele são apresentados diveros datasets separados em phishing e não phishing (legitimos).
 Nós análisamos e selecionamos dois datasets, um com 5000 casos de phishing e outro com 5000 casos legitimos, ambos com as mesmas colunas (valores).  
+Os datasets baixados foram o *not-phishing.csv* e *phishing.csv*
+
 O tratamento dos dados está descrito no artigo.  
   
 # Algoritmos Utilizados  
