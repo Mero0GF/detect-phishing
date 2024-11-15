@@ -30,4 +30,24 @@ O modelo Random Forest é o mais eficaz para detectar phishing, embora com um cu
 Mais detalhes sobre o projeto estão no artigo "Detecção de Sites Phishing com Machine Learning_ Uma Abordagem Baseada em Análise de Dados de Sites Autênticos e Maliciosos".  
   
 Também disponibilizamos um .ipynb, com os codigos organizados para melhor visualização das informações, sendo uma versão extra sobre os códigos presentes no Docker do projeto.  
-  
+
+# Executar Docker
+## Instale o Docker (se ainda não estiver instalado):
+Siga as instruções de instalação para o Docker de acordo com o sistema operacional: [Docker](https://www.docker.com/products/docker-desktop/) 
+## Faça login no Docker Hub
+Abra o terminal e digite:
+```docker login``` 
+Insira seu nome de usuário e senha do Docker Hub. Se o contêiner for público, essa etapa pode ser opcional.
+## Baixe a imagem do contêiner do Docker Hub:
+```docker pull eriaki/detect-phishing:latest```
+## Prepare o arquivo .csv com os dados da predição
+**Atenção**: o arquivo .csv deve ter um formato específico para a predição ser executada normalmente. <br/>
+O arquivo .csv deve ter as colunas: `brands`, `features.html`, `whois_domain_age`, `remote_ip_address`, `domain`, `whois_registrar_url`, `url`, `assets_downloaded` e `is_phishing`. <br/>
+Recomenda-se utilizar um dataset alterado do site do Zenodo (Link: https://zenodo.org/records/8041387).
+## Execute o contêiner
+```docker run -p 8501:8501 detect-phishing```
+## Abra localhost no navegador
+Pesquise por http://localhost:8501/ no seu navegador de preferência
+## Insira o arquivo .csv para a previsão
+Um campo para inserir arquivos estará disponível. Insira o arquivo .csv no campo. <br/>
+Com isso, os modelos preverão baseado no arquivo .csv fornecido.
