@@ -64,7 +64,7 @@ Pesquise por http://localhost:8501/ no seu navegador de preferência
 ### g. Insira o arquivo .csv para a previsão
 Um campo para inserir arquivos estará disponível. Insira o arquivo .csv no campo. <br/>
 Com isso, os modelos preverão baseado no arquivo .csv fornecido.
-## Opção 2: executar pela pasta Docker
+## Opção 2: Obter imagem pela pasta Docker
 ### a. Instale o Docker (se ainda não estiver instalado):
 Siga as instruções de instalação para o Docker de acordo com o sistema operacional: [Docker](https://www.docker.com/products/docker-desktop/) 
 ### b. Baixe a pasta Docker presente neste repositório
