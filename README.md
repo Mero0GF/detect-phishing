@@ -1,10 +1,10 @@
 # Detecção de Phishing com Machine Learning  
 ### Integrantes
-Eric Akio Uchiyamada                  <br/>RA: 10395287<br/><br/>
-Lucas Goulart de Farias Meres         <br/>RA: 10395777<br/><br/>
-Oliver Kieran Galvão McCormack        <br/>RA: 10395672<br/><br/>
-Pedro Loureiro Morone Branco Volpe    <br/>RA: 10395922<br/><br/>
-Renan Tagliaferro                     <br/>RA: 10395211<br/><br/>
+Eric Akio Uchiyamada                  <br/>
+Lucas Goulart de Farias Meres         <br/>
+Oliver Kieran Galvão McCormack        <br/>
+Pedro Loureiro Morone Branco Volpe    <br/>
+Renan Tagliaferro                     <br/>
   
 # Visão Geral
 
