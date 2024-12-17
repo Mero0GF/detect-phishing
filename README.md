@@ -1,6 +1,6 @@
 # Phishing Detection with Machine Learning
 
-# Team Members
+## Team Members
 Eric Akio Uchiyamada <br/>
 Lucas Goulart de Farias Meres <br/>
 Oliver Kieran Galvão McCormack <br/>
