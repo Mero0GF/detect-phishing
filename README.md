@@ -15,7 +15,7 @@ For the project, we collected data from the Zenodo website (Link: https://zenodo
 We analyzed and selected two datasets, one with 5,000 phishing cases and another with 5,000 legitimate cases, both containing the same columns (values).
 The datasets downloaded were not-phishing.csv and phishing.csv.
 
-The data preprocessing is described in the article.
+The data preprocessing is described in the article (Note: the article is in Portuguese).
 
 # Algorithms Used
 Logistic Regression: A simple and interpretable model for binary classification.
